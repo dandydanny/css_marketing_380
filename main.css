@@ -14,7 +14,7 @@ ul a {
 }
 
 ul a:hover {
-  color: #FFBC00;
+  color: #ff0;
 }
  
 body {
@@ -54,8 +54,29 @@ li {
 
 .features div{
   float: left;
-  width: 33%;
+  width: 30%;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 0px 20px 0px;
+  height: 100%;
 }
+
+.features div:first-child {
+    display: block;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #555;
+}
+.features div:nth-child(2) {
+    display: block;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #555;
+}
+
+h3 {
+  text-align: center;
+}
+
 
 /*.icon-beer {
   float: left;
@@ -66,9 +87,9 @@ li {
 /*.icon-cofee {
   float: center;
   width: 33%;
-}
+}*/
 
-.icon-food {
+/*.icon-food {
   float: right;
   width: 33%;
 }*/
@@ -83,4 +104,11 @@ li {
   margin: 1em 0;
   background-color: #555;
   clear: both;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
 }
